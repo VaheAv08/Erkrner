@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;   
+}
+
+body{
+    /* background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(238, 234, 10) 100%); */
+    background-image: url('https://images.news18.com/ibnlive/uploads/2022/05/karman-line-165164534016x9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    background: radial-gradient(circle, rgb(50, 79, 207) 0%, rgba(148,187,233,1) 100%);
+    width: 1200px;
+    height: 800px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    position: relative;
+    margin: 60px auto;
+}
+
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 18px;
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(124,221,73,1) 50%, rgba(34,193,195,1) 100%);
+}
+
+input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 48px;
+    top: 5px;
+    right: 43%;
+}
+
+#left_2{
+    width: 160px;
+    height: 90px;
+    top: 80px;
+    right: 67%;
+}
+
+#left_3{
+    width: 160px;
+    height: 90px;
+    top: 185px;
+    right: 80%;
+}
+
+#left_4{
+    width: 160px;
+    height: 90px;
+    top: 310px;
+    right: 85%;
+}
+
+#left_5{
+    width: 160px;
+    height: 90px;
+    top: 442px;
+    right: 84%;
+}
+
+#left_6{
+    width: 160px;
+    height: 90px;
+    top: 570px;
+    right: 75%;
+}
+
+#right_1{
+    width: 160px;
+    height: 90px;
+    top: 77px;
+    right: 20%;
+}
+
+#right_2{
+    width: 160px;
+    height: 90px;
+    top: 182px;
+    right: 8%;
+}
+
+#right_3{
+    width: 160px;
+    height: 90px;
+    top: 301px;
+    right: 2%;
+}
+
+#right_4{
+    width: 160px;
+    height: 90px;
+    top: 430px;
+    right: 2%;
+}
+
+#right_5{
+    width: 160px;
+    height: 90px;
+    top: 557px;
+    right: 10%;
+}
+
+.btn{
+    width: 250px;
+    height: 120px;
+    margin-top: 650px;
+    margin-left: 475px;
+    border-radius: 50px;
+    border-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 25px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+
+h1{
+    background-color: chartreuse;
+}
+
+#answer{
+    font-size: 32px;
+    color: aliceblue;
+    position: absolute;
+    top: 370px;
+    right: 50%;
+    border-radius: 5%;
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#quality{
+    font-size: 32px;
+    position: absolute;
+    color: aliceblue;
+    top: 440px;
+    right: 42%;
+    border-radius: 5%;
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
